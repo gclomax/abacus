@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Poetry
+.venv/
+dist/
+
+# VS Code (if you're using it)
+.vscode/
+
+# PyCharm (if you're using it)
+.idea/
+
+# Environments
+.env
+.env.local

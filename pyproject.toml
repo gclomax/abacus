@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "auto-solver"
+version = "0.1.0"
+description = ""
+authors = ["Gareth Lomax <6199423+gclomax@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.7"
+inspect-ai = "^0.3.17"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
